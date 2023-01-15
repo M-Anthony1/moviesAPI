@@ -1,10 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-
-
-//mongodb+srv://dbUser:dbUserPassword@senecaweb.wmnadd5.mongodb.net/sample_mflix?retryWrites=true&w=majority
-
 const movieSchema = new Schema({
   plot: String,
   genres: [String],
