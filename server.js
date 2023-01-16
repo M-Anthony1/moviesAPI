@@ -75,7 +75,7 @@ app.put('/api/movie/:id', (req, res) => {
 
 })
 
-app.delete('/api/movie/:id' , (req,res) =>{
+app.delete('/api/movies/:id' , (req,res) =>{
     db.deleteMovieById(req.params.id).then((data) => {
         res.json({message: "Movie has been deleted"})
 
