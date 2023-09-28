@@ -1,7 +1,9 @@
 # moviesAPI
 
 <h3>Introduction</h3>
-Use this API to get access to movie data.
+Use this API to get access to movie data.<br />
+
+Example deployment: https://dark-gray-fish-kilt.cyclic.app/ <br/>
 
 <h3>Using the API</h3>
 
@@ -82,4 +84,5 @@ axios.get('http://localhost:8080/api/movies')
     });
 
 ```
+//Example using deployed link: https://dark-gray-fish-kilt.cyclic.app/api/movies/573a1390f29313caabcd548c
     
